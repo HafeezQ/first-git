@@ -1,4 +1,153 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>My First BootStrap</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
+
+<style>
+body{
+  padding-top:40px;
+}
+</style>
+
 <body>
 
-how are you</body></html>
+ <!--NAv bar-->
+ <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+ <div class="container">
+ <div class ="navbar-header" id="navbar-collapse">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+	   <span class="icon-bar"></span>
+	   <span class="icon-bar"></span>
+	   <span class="icon-bar"></span>
+	   <span class="icon-bar"></span>
+	 </button>
+	 <a href="www.umarah.com" class="navbar-brand">Umarah</a>
+	 
+	 
+	 </div><!--Navbar header-->
+	 <div class="collapse navbar-collapse" id="navbar-collapse">
+	  <a href="http://umarah.com/" class="btn-lg navbar-btn navbar-right">Download Now</a>
+	    <ul class="nav navbar-nav">
+		<li><a href="#feedback">Feedback</a></li>
+		<li><a href="#gallery">Gallery</a></li>
+		<li><a href="#features">Features</a></li>
+		<li><a href="#faq">FAQ</a></li>
+		<li><a href="#contact">Contact</a></li>
+	 </div>
+	 </nav>
+ <!--Jubotron-->
+ <div class="jumbotron">
+ <div class="container text-center">
+ <h1> Umarah app</h1>
+ <p>This is Umarah app. We have wonderful services</p>
+ <div class="btn-group">
+ <a href="" class="btn-lg btn-info">Download app</a>
+ <a href="" class="btn-lg btn-default">Visit Store</a>
+ <a href="" class="btn-lg btn-warning">Spread the Word</a>
+ </div>
+ </div><!-container-->
+ </div>
+<div class= "container">
+<section>
+ <div class="page-header" id="feedback">
+ <h2>Feedback<small>Please check the feedback</small></h2>
+ </section>
+ </div>
+ 
+ <div class="row">
+ <div class="col-lg-4">
+ <blockquote>
+  <p>Neque porro quisquam est qui dolorem ipsum quia dolor 
+  sit amet, consectetur, adipisci velit.
+  </p>
+  <footer>Sean Koes</footer>
+  </blockquote>
+ </div>
+ <div class="col-lg-4">
+ <blockquote>
+  <p>Neque porro quisquam est qui dolorem ipsum quia dolor 
+  sit amet, consectetur, adipisci velit.
+  </p>
+  <footer>Mark Twain</footer>
+  </blockquote>
+ </div>
+ <div class="col-lg-4">
+ <blockquote>
+  <p>Neque porro quisquam est qui dolorem ipsum quia dolor 
+  sit amet, consectetur, adipisci velit.
+  </p>
+  <footer>Elbert Alfred</footer>
+  </blockquote>
+ </div>
+ </div>
+<!--call to action-->
+<div class="well">
+ <div class="container text-center">
+ <h3>Subscribe for more exciting stuff</h3>
+  <p>To Subscribe, Enter your Name and Email </p>
+    <form action="" class="form-inline">
+  <div class="form-group">
+  <label for="subsription">Subsribe</label>
+  <input type="text" class="form-controls" id="subscription" placeholder="Your Name">
+</div>
+<div class="form-group">
+  <label for="Email">Subsribe</label>
+  <input type="text" class="form-controls" id="Email" placeholder="Enter Your Email">
+</div> 
+<button type="submit" class="btn btn-default">Subscribe</button>
+<hr>
+</form>
+ </div><!--container-->
+ </div><!--end of well-->
+ 
+</section><!--end of section-->
+
+<!--Gallery-->
+ 
+ <div class="container">
+  <section>
+    <div class="page-header" id="gallery">
+     <h2>Check out the Gallery<small>Check out </small></h2>
+	 </div>
+	  <div class="carousel slide" id="screenshot-carousel" data-ride="carousel"></div>
+	   <ol class="carousel-indicators">
+	   <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+	   <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+	   <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+	   <li data-target="#screenshot-carousel" data-slide-to="3"></li>
+	   <li data-target="#screenshot-carousel" data-slide-to="4"></li>
+	   </ol>
+         <div class="carousel-inner">
+		  <div class="item active">
+		  <img src="1.jpg" alt="Text of the image">
+		 </div>
+		 <div class="item">
+		  <img src="2.jpg" alt="Text of the image">
+		 </div>
+		 <div class="item">
+		  <img src="3.jpg" alt="Text of the image">
+		 </div>
+		 <div class="item">
+		  <img src="4.jpg" alt="Text of the image">
+		 </div>
+		 <div class="item">
+		  <img src="5.jpg" alt="Text of the image">
+		 </div>
+
+	   </section>
+ 
+ 
+ </div><!--End of div Gallery>
+ 
+ 
+ 
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>
